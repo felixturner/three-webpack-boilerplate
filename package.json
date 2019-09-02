@@ -1,0 +1,23 @@
+{
+	"name": "three-webpack-boilerplate",
+	"version": "1.0.0",
+	"description": "Threejs with Webpack",
+	"scripts": {
+		"start": "webpack-dev-server --port 3000 --config webpack.dev.js --watch --colors --progress --host 0.0.0.0",
+		"build": "webpack --config webpack.prod.js --colors --progress"
+	},
+	"author": "Felix  Turner",
+	"license": "MIT",
+	"dependencies": {
+		"npm": "^6.11.2",
+		"stats.js": "^0.17.0",
+		"three": "^0.108.0"
+	},
+	"devDependencies": {
+		"copy-webpack-plugin": "^5.0.4",
+		"webpack": "^4.39.3",
+		"webpack-cli": "^3.3.7",
+		"webpack-dev-server": "^3.8.0",
+		"webpack-merge": "^4.2.2"
+	}
+}

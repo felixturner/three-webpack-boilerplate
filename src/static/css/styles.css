@@ -1,0 +1,14 @@
+body {
+	font-family: sans-serif;
+	margin: 0px;
+	background-color: #000000;
+	overflow: hidden;
+	text-align: center;
+}
+
+#info {
+	color: #fff;
+	position: absolute;
+	top: 10px;
+	width: 100%;
+}
