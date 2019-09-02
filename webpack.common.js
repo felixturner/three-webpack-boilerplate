@@ -1,15 +1,15 @@
-const path = require("path");
-const CopyWebpackPlugin = require("copy-webpack-plugin");
+const path = require('path');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-	entry: "./src/js/main.js",
+	entry: './src/js/main.js',
 	output: {
-		path: path.resolve(__dirname, "dist"),
-		filename: "app.js",
+		path: path.resolve(__dirname, 'dist'),
+		filename: 'app.js',
 	},
 	plugins: [
-		new CopyWebpackPlugin([{ from: "**/*", to: "" }], {
-			context: "src/static",
+		new CopyWebpackPlugin([{ from: '**/*', to: '' }], {
+			context: 'src/static',
 			writeToDisk: true,
 		}),
 	],

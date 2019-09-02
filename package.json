@@ -9,7 +9,6 @@
 	"author": "Felix  Turner",
 	"license": "MIT",
 	"dependencies": {
-		"npm": "^6.11.2",
 		"stats.js": "^0.17.0",
 		"three": "^0.108.0"
 	},
