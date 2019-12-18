@@ -7,7 +7,7 @@ Using Three.js, ES6 imports, Orbit controls, Stats.js.
 ## Build Dev
 
 -   `npm install`
--   `npm start`
+-   `npm run dev`
 -   Navigate to `http://localhost:3000/`
 
 `app.js` is built and minified from from `src/js/main.js`. Static files (html and css) are copied from `src/static` folder. Browser reloads upon changes to js or static folders.
