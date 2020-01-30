@@ -9,15 +9,14 @@
 	"author": "Felix  Turner",
 	"license": "MIT",
 	"dependencies": {
-		"stats.js": "^0.17.0",
-		"three": "^0.108.0"
+		"three": "^0.112.1"
 	},
 	"devDependencies": {
 		"clean-webpack-plugin": "^3.0.0",
 		"copy-webpack-plugin": "^5.1.1",
-		"webpack": "^4.39.3",
-		"webpack-cli": "^3.3.7",
-		"webpack-dev-server": "^3.8.0",
+		"webpack": "^4.41.5",
+		"webpack-cli": "^3.3.10",
+		"webpack-dev-server": "^3.10.1",
 		"webpack-merge": "^4.2.2"
 	}
 }
