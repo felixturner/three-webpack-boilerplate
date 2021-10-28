@@ -8,9 +8,8 @@ module.exports = {
 		filename: 'app.js',
 	},
 	plugins: [
-		new CopyWebpackPlugin([{ from: '**/*', to: '' }], {
-			context: 'src/static',
-			writeToDisk: true,
+		new CopyWebpackPlugin({
+			patterns: [{ from: '**/*', to: '', context: 'src/static' }],
 		}),
 	],
 };
