@@ -9,7 +9,7 @@
 	"author": "Felix  Turner",
 	"license": "MIT",
 	"dependencies": {
-		"three": "^0.134.0"
+		"three": "^0.137.0"
 	},
 	"devDependencies": {
 		"clean-webpack-plugin": "^4.0.0",
